@@ -2,6 +2,7 @@
 export interface Task {
 	status: TaskStatus;
 	title: string;
+	id: number | string;
 }
 
 export enum TaskStatus {
